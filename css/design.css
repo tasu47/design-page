@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: gainsboro;
+  padding-bottom: 50px;
+}
+.container {
+  background-color: white;
+  width: 45%;
+  margin: auto;
+  margin-top: 30px;
+}
+.container .red-image {
+  background-image: url(../images/bg-pattern-intro-desktop.svg);
+  background-size: 150% 150%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 99, 71, 0.808);
+  border-bottom-left-radius: 50px;
+}
+.container .red-image .menu {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.container .red-image .menu .blogr {
+  display: flex;
+  gap: 15px;
+  font-family: sans-serif;
+  color: white;
+}
+.container .red-image .menu .blogr .anker {
+  margin-top: 5px;
+  font-size: 13px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.container .red-image .menu .blogr .anker a {
+  font-size: 13px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container .red-image .menu .blogr .anker .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: 12px;
+  width: 60px;
+}
+.container .red-image .menu .blogr .anker .content a {
+  display: block;
+  color: blue;
+  text-align: center;
+}
+.container .red-image .menu .blogr .anker:hover .content {
+  display: block;
+}
+.container .red-image .menu .login button {
+  border: none;
+  border: aliceblue;
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 14px;
+  height: 30px;
+  width: 90px;
+  font-weight: bold;
+  color: red;
+}
+.container .red-image .text {
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+  font-family: sans-serif;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+.container .red-image .text h2 {
+  font-size: 23px;
+}
+.container .red-image .text p {
+  font-size: 14px;
+  margin-top: 9px;
+}
+.container .red-image .text button {
+  height: 30px;
+  width: 17%;
+  background-color: aliceblue;
+  border: none;
+  color: red;
+  border-radius: 14px;
+  margin-top: 22px;
+  font-weight: bold;
+}
+.container .main .head {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  color: rgb(36, 36, 87);
+}
+.container .main .image {
+  display: flex;
+  margin-left: 40px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.container .main .image .para {
+  font-family: sans-serif;
+  color: rgb(43, 43, 88);
+  margin-top: 60px;
+}
+.container .main .image .para p {
+  font-size: 12px;
+  margin-top: 14px;
+  width: 250px;
+  padding-bottom: 12px;
+}
+.container .main .image .img img {
+  width: 400px;
+  margin-left: 50px;
+}
+.container .phone {
+  background-color: rgb(56, 56, 87);
+  margin-top: 30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  height: 230px;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg-pattern-circles.svg);
+}
+.container .phone .something {
+  display: flex;
+  color: aliceblue;
+}
+.container .phone .something .icon img {
+  width: 270px;
+  height: 270px;
+  margin-left: 30px;
+}
+.container .phone .something .font {
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.container .phone .something .font h4 {
+  padding-bottom: 14px;
+}
+.container .teli {
+  display: flex;
+  margin-top: 40px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.container .teli .anything img {
+  width: 490px;
+  margin-left: -140px;
+}
+.container .teli .free {
+  margin-top: 50px;
+  margin-right: 12px;
+  color: rgb(35, 35, 85);
+}
+.container .teli .free p {
+  font-size: 13px;
+  margin-top: 7%;
+  padding-bottom: 19px;
+}
+.container .blogr1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  border-top-right-radius: 50px;
+}
+.container .blogr1 .blogr2 {
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.container .blogr1 .blogr3 {
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.container .blogr1 .blogr3 a {
+  font-size: 13px;
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+  padding: 8px;
+}
+.container .blogr1 .blogr3 h4 {
+  padding-bottom: 12px;
+}
+@media screen and (max-width: 600px) {
+  .container .red-image .menu .blogr h3 {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+
+  .container .red-image .menu .anker,
+  .login {
+    display: none;
+  }
+  .container .red-image .text h2 {
+    font-size: 19px;
+  }
+  .container .red-image .text p {
+    font-size: 12px;
+  }
+  .container .red-image .text button {
+    height: 30px;
+    width: 75px;
+    font-size: 10px;
+  }
+  .container .main .head h3 {
+    font-size: 16px;
+  }
+  .container .main .image {
+    display: block;
+    justify-content: center;
+    overflow: visible;
+  }
+  .container .main .image h4 {
+    font-size: 14px;
+  }
+  .container .main .image .img img {
+    width: 230px;
+    margin-left: -40px;
+    align-items: center;
+  }
+
+  .container .main .image .para p {
+    width: 170px;
+  }
+  .container .phone {
+    height: 370px;
+    margin-top: 90px;
+    background-size: contain;
+  }
+  .container .phone .something {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .container .phone .something h4 {
+    font-size: 15px;
+    margin-top: -30px;
+  }
+  .container .phone .something .icon img {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+  }
+
+  .container .teli {
+    display: block;
+    overflow: hidden;
+  }
+  .container .teli .anything img {
+    width: 250px;
+    margin: auto;
+  }
+  .container .teli .free {
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container .blogr1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
