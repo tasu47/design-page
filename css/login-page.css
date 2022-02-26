@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(235 229 229 / 30%);
+}
+.main-page {
+  background-color: white;
+  border-radius: 18px;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  margin-top: 36px;
+  box-shadow: 1px 1px 16px 9px rgb(187 178 178 / 27%);
+}
+.log-in h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 67px;
+  padding-bottom: 10px;
+}
+.log-in .bar {
+  height: 6px;
+  width: 40px;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 191),
+    rgb(195, 0, 255)
+  );
+}
+.log-in .icon a {
+  margin: 5px;
+  text-decoration: none;
+}
+.log-in .icon a img {
+  height: 13px;
+  width: 13px;
+  margin-top: 12px;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 2px rgb(210 205 215 / 61%);
+}
+.main-page .log-in p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+.input h4 {
+  margin-right: 56%;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.input .input1 h4 {
+  margin-right: 63%;
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.input input {
+  width: 67%;
+  height: 45px;
+  border: 1px solid gainsboro;
+  padding: 1px 10px;
+  outline: none;
+  border-radius: 8px;
+}
+.main-page .rem {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 69px;
+  font-size: 15px;
+}
+.main-page .rem .cheak {
+  font-weight: bold;
+}
+.main-page .rem a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+button {
+  width: 72%;
+  padding: 14px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(195 0 189 / 85%),
+    rgb(114 10 193)
+  );
+  font-size: 18px;
+  border-radius: 26px;
+  color: aliceblue;
+  box-shadow: 1px 1px 20px 3px rgb(176 128 219 / 61%);
+}
+.main-page .privacy {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 55px;
+  margin: 25px;
+  font-size: 15px;
+}
+.main-page .privacy a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
